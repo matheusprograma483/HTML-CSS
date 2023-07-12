@@ -1,0 +1,32 @@
+@charset "utf8";
+*
+body{background-color: antiquewhite;
+    background-image: linear-gradient(135deg, red black);
+
+
+}
+h1{
+color: burlywood;
+box-shadow: 1px 1px 0px black;
+margin: auto;
+}
+p{
+color: red;
+text-align: justify;
+}
+main{
+width: 600px;
+box-shadow: 10px 10px 10px burlywood;
+margin: auto;
+padding: 10px;
+box-shadow: 5px 5px 15px black;
+border-radius: 10px;
+
+
+}
+h2{
+text-align: center;
+text-shadow: 1px 1px 0px black;
+
+}
+

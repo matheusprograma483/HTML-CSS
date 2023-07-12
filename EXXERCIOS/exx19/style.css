@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{ background-color: wheat;
+
+
+}
+p{
+text-align: justify;
+}
+main{
+background-color:white;
+border-radius: 20px;
+box-shadow: 10px 10px 10px 10px black;
+width: 600px;
+padding: 10px;
+margin: auto;
+}
+h1{
+color: orange;
+text-align: center;
+text-shadow: 1px 1px 0px black;
+}
+h2{
+color: peru;
+
+}

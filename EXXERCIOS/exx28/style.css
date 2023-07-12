@@ -1,0 +1,87 @@
+@charset "utf-8";
+*
+body{
+background-color: white;
+
+
+}
+
+main>article{
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    background-color: pink;
+    box-shadow: 10px 10px 10px 10px black;
+
+}
+img{
+display: block;
+margin: auto;
+}
+
+
+footer>ul{
+   text-align: left;
+background-color: pink;
+padding: 15px;
+ border: 15px;
+ margin: auto;
+
+
+
+
+}
+header>h1{
+text-align: center;
+box-shadow: 5px 5px 5px 10px black;
+background-color: pink;
+}
+header>p{
+padding: 20px;
+border: 30px;
+margin: 10px;
+background-color: pink;
+}
+    nav>a{
+        padding: 3px;
+        
+
+
+    }
+/* 
+ --cor0: #ebe5c5;
+    --cor1: #83e1ab;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+
+
+*/
+:root{
+
+    --cor0: #ebe5c5;
+    --cor1: #83e1ab;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+}
+aside{
+background-color: pink;
+padding: 10px;
+margin: auto;
+
+}
+header{
+min-height: 150px;
+
+
+}
+
+
+
+
+

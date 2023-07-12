@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*
+h1{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+color: aqua
+; 
+text-shadow: 1px 1px 0px black
+}
+body{background-color: grey;
+
+}
+main{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h2{color:aqua
+     
+}
+    
+ul li{color: white;
+
+
+}
+
+
+
+
+
+
+
+
+
