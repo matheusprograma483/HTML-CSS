@@ -12,7 +12,7 @@ main>article{
     margin: 10px;
     background-color: pink;
     box-shadow: 10px 10px 10px 10px black;
-
+    
 }
 img{
     height: 200px;
@@ -21,6 +21,7 @@ border-bottom: 20px;
 margin: 10px;
 align-items: center;
 justify-content: center;
+
 }
 
 
