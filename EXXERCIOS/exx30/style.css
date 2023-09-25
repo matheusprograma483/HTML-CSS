@@ -3,10 +3,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 
 html,body{
+    font-family: var(--fonte1);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -20,6 +22,8 @@ header{
 header> h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header>p{
@@ -43,8 +47,13 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2em
 }
+section > p{
+  padding-bottom: 3em;
 
+}
 section.normal{
 
    background-color: white;
@@ -56,11 +65,27 @@ section.img{
 
     background-color: black;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.img > p {
-      width: 400px;
+     width: 400px;
     background-color: black;
 }
+
+section#img01{
+background-image: url(imagens/background001.jpg);
+
+}
+
+section#img02{
+background-image: url(imagens/background002.jpg);
+
+
+}
+
+
 footer{
 
     background-color: black;
@@ -68,4 +93,20 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+:root{
+    
+    --fonte1: verdana, geneva, tahoma, san-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? família = Paixão + Um &family= Sriracha & display=swap');
+
+
 
