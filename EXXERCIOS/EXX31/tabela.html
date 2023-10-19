@@ -19,6 +19,7 @@
       position: absolute;
       top: 450px;
       left: 700px;
+      position: relative;
 
       }
       td, th{
@@ -32,11 +33,29 @@
        color: white;
 
       }
+      thead> tr> th{
+       position: sticky;
+       top: -1px;
+       background-color: gray;
+
+      }
       h1{
         text-align: center;
         color: black;
        
     
+      }
+      tbody>tr:nth-child(2n){
+      background-color: aqua;
+
+      }
+
+         
+      
+      caption{
+      font-size: 3em;
+       font-weight: bold;
+       padding: 10px;
       }
     </style>
 </head>
@@ -51,8 +70,9 @@
        tfoot 
 
          -->
-
+           
          <table>
+        <caption>animes bons de romance</caption>
            <thead>
              <tr>
              <th>anime de romance</th>
@@ -117,5 +137,6 @@
 
 
          </table>
+         
 </body>
 </html>
